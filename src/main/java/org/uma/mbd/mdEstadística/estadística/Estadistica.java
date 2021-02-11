@@ -24,19 +24,20 @@ public class Estadistica {
     }
     Son lo mismo estos 4 métodos*/
 
-    public double media(){
-        return sumaX/numElementos;
+    public double media() {
+        return sumaX / numElementos;
     }
 
-    public double varianza(){
-        return sumaX2/numElementos - Math.pow(media(),2);
+    public double varianza() {
+        return sumaX2 / numElementos - Math.pow(media(), 2);
     }
-    public double desviacionTipica(){
+
+    public double desviacionTipica() {
         return Math.sqrt(varianza());
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Estadística(" + numElementos + ", " + sumaX + ", " + sumaX2 + ")";
     }
 }

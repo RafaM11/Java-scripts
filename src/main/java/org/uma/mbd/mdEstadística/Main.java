@@ -1,6 +1,7 @@
 package org.uma.mbd.mdEstadística;
 
 import org.uma.mbd.mdEstadística.estadística.Estadistica;
+
 import java.util.Random;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
         Estadistica es = new Estadistica();
         Random rnd = new Random();
 
-        for (int i = 0; i < 1000000; i++){
+        for (int i = 0; i < 1000000; i++) {
             es.agrega(rnd.nextGaussian());
         }
 

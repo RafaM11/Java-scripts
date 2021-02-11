@@ -1,29 +1,43 @@
 package org.uma.mbd.mdRelojArena.reloj;
 
 public class RelojArena {
-    public int minutosSup, minutosInf, aux;
+    private int tiempoTotal;
+    public int tiempoRestante;
 
     public RelojArena(int minutos){
-        minutosInf = minutos;
-        minutosSup = 0;
+        tiempoTotal = minutos;
+        tiempoRestante = 0;
     }
 
     public void gira(){
-        aux = minutosSup;
-        minutosSup = minutosInf;
-        minutosInf = aux;
+        int aux = tiempoTotal;
+        tiempoTotal = tiempoRestante;
+        tiempoRestante = aux;
     }
 
-    public void pasatiempo(){
-        minutosInf = minutosInf + minutosSup;
+    public void pasaTiempo(){
+        tiempoTotal += tiempoRestante;
+        tiempoRestante = 0;
     }
 
     public int getTiempoRestante(){
-        return minutosSup;
+        return tiempoRestante;
     }
 
-    public void pasatiempo(RelojArena reloj){
+    public void pasaTiempo(RelojArena reloj){
+        if(tiempoRestante > reloj.tiempoRestante){
+            tiempoTotal += reloj.tiempoRestante;
+            tiempoRestante -= reloj.tiempoRestante;
+            reloj.pasaTiempo();
 
+        } else {
+            tiempoTotal += tiempoRestante;
+            tiempoRestante = 0;
+            reloj.pasaTiempo();
+        }
     }
 
+    public String toString(){
+        return "R(" + tiempoRestante + "/" + tiempoTotal + ")";
+    }
 }

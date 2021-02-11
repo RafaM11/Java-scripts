@@ -1,0 +1,20 @@
+Andalucía	396,3	166,5	17,3	14,5	20,0	
+Aragón	940,4	579,2	22,0	19,8	44,0	
+Principado de Asturias	355,1	205,7	6,9	15,0	22,5	
+Islas Baleares	191,2	106,3	7,0	6,0	18,3
+Canarias	77,1	34,3	4,2	4,4	10,8	
+Cantabria	317,3	197,7	10,4	6,5	13,7	
+Castilla-La Mancha	460,9	222,6	17,8	17,1	24,9	
+Castilla y León	700,6	358,7	20,8	21,8	35,9	
+Cataluña	656,9	337,4	13,9	14,7	37,6	
+Ceuta	594,5	372,7	38,6	21,0	41,2	
+Comunidad Valenciana	207,7	93,5	15,4	10,1	16,8	
+Extremadura	474,0	279,8	14,7	9,4	18,3	
+Galicia	254,8	153,0	8,4	5,8	10,2	
+Comunidad de Madrid	430,0	197,4	10,3	17,7	38,9	
+Melilla	1211,7	663,7	29,5	29,1	64,3	
+Región de Murcia	457,7	208,4	17,5	12,4	18,3	
+Comunidad Foral de Navarra	1159,3	606,2	15,2	17,9	36,5	
+País Vasco	541,8	306,4	8,9	14,3	25,3	
+La Rioja	707,1	380,4	8,0	17,4	40,0	
+España	452,6	227,1	13,5	13,8	25,3

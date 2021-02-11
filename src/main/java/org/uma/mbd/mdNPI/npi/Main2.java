@@ -1,8 +1,9 @@
-package org.uma.mbd.mdNPI;
+package org.uma.mbd.mdNPI.npi;
+
 import org.uma.mbd.mdNPI.npi.NPI;
 
 public class Main2 {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         // 3 * (6 - 2) + (2 + 7) / 5;
         // NPI 3 6 2 - * 2 7 + 5 / +
         NPI cpi = new NPI();
@@ -18,9 +19,9 @@ public class Main2 {
         cpi.divide();
         cpi.suma();
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Resultado " + cpi.getResultado());
-        System.out.println("");
+        System.out.println();
         System.out.println(cpi.toString());
     }
 }
